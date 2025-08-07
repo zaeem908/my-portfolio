@@ -61,3 +61,5 @@ export const allProjects: Project[] = [
     status: "Live",
   },
 ]
+
+export const projects = allProjects;
