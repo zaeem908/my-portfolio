@@ -5,7 +5,12 @@ export interface Project {
   technologies: string[]
   liveUrl: string
   status: string
+  dueDate?: string       // <-- add this
+  progress?: number      // <-- add this
+  members?: number       // <-- add this
+  files?: number         // <-- add this
 }
+
 
 export const featuredProjects: Project[] = [
   {
